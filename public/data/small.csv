@@ -1,0 +1,569 @@
+number,opened_at,resolved_at,closed_at,state,priority,category,subcategory,assignment_group,assigned_to,short_description,description,work_notes,close_notes,made_sla,reopen_count,assignment_path
+INC1010003,2026-07-28T06:03:24-04:00,2026-08-02T14:27:30-04:00,2026-08-03T00:25:44-04:00,Closed,4-Low,identity,mfa,Identity/IAM,Phoenix Lee,Duo 2FA denied after travel,"Duo 2FA denied after travel
+Please assist.
+Thanks,
+Phoenix Lee
+@example.invalid","2026-07-28 06:03:24 - Phoenix Lee (Work notes)
+User reports: Duo 2FA denied after travel. Routing toward Identity/IAM.
+2026-07-28 07:03:31 - Phoenix Lee (Work notes)
+Waiting on user callback.
+2026-07-28 08:03:38 - Phoenix Lee (Work notes)
+Waiting on user callback.",Resynced TOTP; MFA prompt succeeds.,false,0,Service Desk|Identity/IAM
+INC1010006,2026-06-01T16:28:42-04:00,2026-06-04T08:55:10-04:00,2026-06-04T10:48:42-04:00,Closed,2-High,app,zoom-teams,Collaboration Services,Arden Miles,Zoom meeting audio missing on EliteBook 840,"Zoom meeting audio missing on EliteBook 840
+Please assist.
+Thanks,
+Arden Miles
+@example.invalid","2026-06-01 16:28:42 - Arden Miles (Work notes)
+User reports: Zoom meeting audio missing on EliteBook 840. Routing toward Collaboration Services.
+2026-06-01 17:28:49 - Arden Miles (Work notes)
+Waiting on user callback.",Reinstalled Zoom client; audio device set.,false,0,Service Desk|App Support|Service Desk|Collaboration Services
+INC1010010,2026-06-27T19:37:59-04:00,2026-07-02T00:22:02-04:00,2026-07-02T14:15:42-04:00,Closed,4-Low,facilities,hvac,Service Desk,Jordan Hale,HVAC alarm on Floor 4,"HVAC alarm on Floor 4
+Please assist.
+Thanks,
+Jordan Hale
+@example.invalid",,Thermostat reset; temperature stable.,true,0,Service Desk
+INC1010016,2026-08-18T17:53:40-04:00,2026-08-19T22:56:24-04:00,2026-08-21T11:34:49-04:00,Closed,3-Moderate,identity,account-lockout,Identity/IAM,Sloane Adler,Account lockout repeating every hour,"Account lockout repeating every hour
+Please assist.
+Thanks,
+Sloane Adler
+@example.invalid","2026-08-18 17:53:40 - Sloane Adler (Work notes)
+User reports: Account lockout repeating every hour. Routing toward Identity/IAM.
+2026-08-18 18:53:47 - Sloane Adler (Work notes)
+Escalating to Identity/IAM.
+2026-08-18 19:53:54 - Sloane Adler (Work notes)
+Checked account-lockout path; still failing.",Unlocked AD account; advised password hygiene.,true,0,Identity/IAM
+INC1010017,2026-06-15T10:13:59-04:00,2026-06-15T19:02:47-04:00,2026-06-15T23:26:41-04:00,Closed,3-Moderate,network,wifi,Network Ops,Peyton Ames,WiFi drops in Building North Floor 5,"WiFi drops in Building North Floor 5
+Please assist.
+Thanks,
+Peyton Ames
+@example.invalid","2026-06-15 10:13:59 - Peyton Ames (Work notes)
+User reports: WiFi drops in Building North Floor 5. Routing toward Network Ops.
+2026-06-15 11:13:06 - Peyton Ames (Work notes)
+Waiting on user callback.
+2026-06-15 12:13:13 - Peyton Ames (Work notes)
+Applied standard workaround.",Reprovisioned SSID profile.,true,0,Service Desk|Network Ops
+INC1010023,2026-07-27T15:51:56-04:00,2026-07-28T05:46:39-04:00,2026-07-28T06:34:00-04:00,Closed,3-Moderate,identity,mfa,Security Ops,Robin Vale,TOTP out of sync after clock change,"TOTP out of sync after clock change
+Please assist.
+Thanks,
+Robin Vale
+@example.invalid","2026-07-27 15:51:56 - Robin Vale (Work notes)
+User reports: TOTP out of sync after clock change. Routing toward Security Ops.
+2026-07-27 16:51:03 - Robin Vale (Work notes)
+Checked mfa path; still failing.",Resynced TOTP; MFA prompt succeeds.,true,0,Service Desk|Security Ops
+INC1010026,2026-06-11T18:52:11-04:00,2026-06-11T20:33:21-04:00,2026-06-11T22:27:20-04:00,Closed,1-Critical,desktop,printer,Desktop Support,Reese Dalton,Cannot print PDF to Surface Laptop,"Cannot print PDF to Surface Laptop
+Please assist.
+Thanks,
+Reese Dalton
+@example.invalid","2026-06-11 18:52:11 - Reese Dalton (Work notes)
+User reports: Cannot print PDF to Surface Laptop. Routing toward Desktop Support.
+2026-06-11 19:52:18 - Reese Dalton (Work notes)
+Checked printer path; still failing.
+2026-06-11 20:52:25 - Reese Dalton (Work notes)
+Checked printer path; still failing.",Replaced toner and cleared jam.,true,0,Service Desk|Major Incident|Desktop Support
+INC1010033,2026-06-23T13:10:56-04:00,2026-06-23T17:25:29-04:00,2026-06-23T20:47:03-04:00,Closed,2-High,desktop,os-software,Vendor Mgmt,Tatum Rhodes,Chrome will not start after update on EliteBook 840,"Chrome will not start after update on EliteBook 840
+Please assist.
+Thanks,
+Tatum Rhodes
+@example.invalid","2026-06-23 13:10:56 - Tatum Rhodes (Work notes)
+User reports: Chrome will not start after update on EliteBook 840. Routing toward Vendor Mgmt.
+2026-06-23 14:10:03 - Tatum Rhodes (Work notes)
+Checked os-software path; still failing.",Cleared update cache; reboot succeeded.,true,0,Service Desk|Vendor Mgmt
+INC1010040,2026-07-17T21:05:42-04:00,2026-07-18T04:10:30-04:00,2026-07-18T05:03:19-04:00,Closed,4-Low,desktop,laptop-hardware,Desktop Support,Finley Shah,Laptop lid sensor false sleep on Surface Laptop,"Laptop lid sensor false sleep on Surface Laptop
+Please assist.
+Thanks,
+Finley Shah
+@example.invalid","2026-07-17 21:05:42 - Finley Shah (Work notes)
+User reports: Laptop lid sensor false sleep on Surface Laptop. Routing toward Desktop Support.
+2026-07-17 22:05:49 - Finley Shah (Work notes)
+Escalating to Desktop Support.",Reseated dock; display path restored.,true,0,Service Desk|Desktop Support
+INC1010042,2026-06-15T12:28:26-04:00,2026-06-15T21:49:38-04:00,2026-06-16T06:05:52-04:00,Closed,3-Moderate,identity,access-request,Service Desk,Avery Lang,Need Okta group for new role,"Need Okta group for new role
+Please assist.
+Thanks,
+Avery Lang
+@example.invalid","2026-06-15 12:28:26 - Avery Lang (Work notes)
+User reports: Need Okta group for new role. Routing toward Service Desk.",Added to Okta group / distribution list.,true,0,Service Desk
+INC1010044,2026-08-19T13:24:21-04:00,2026-08-20T15:57:33-04:00,2026-08-21T04:58:05-04:00,Closed,4-Low,app,sap,Service Desk,Casey Quintana,SAP GUI timeout on tcode SU01,"SAP GUI timeout on tcode SU01
+Please assist.
+Thanks,
+Casey Quintana
+@example.invalid","2026-08-19 13:24:21 - Casey Quintana (Work notes)
+User reports: SAP GUI timeout on tcode SU01. Routing toward Service Desk.",SAP role provisioned; tcode authorized.,true,2,Service Desk|App Support|Service Desk
+INC1010050,2026-06-26T18:34:47-04:00,2026-06-27T05:05:19-04:00,2026-06-27T05:30:40-04:00,Closed,4-Low,app,outlook,Collaboration Services,Wynn Foster,Calendar invites not showing in Outlook,"Calendar invites not showing in Outlook
+Please assist.
+Thanks,
+Wynn Foster
+@example.invalid","2026-06-26 18:34:47 - Wynn Foster (Work notes)
+User reports: Calendar invites not showing in Outlook. Routing toward Collaboration Services.",Repaired Outlook profile.,true,0,Service Desk|Collaboration Services
+INC1010051,2026-07-10T00:48:55-04:00,2026-07-10T04:40:29-04:00,2026-07-11T09:54:54-04:00,Closed,2-High,desktop,peripheral,Desktop Support,,Headset mute button not working,"Headset mute button not working
+Please assist.
+Thanks,
+End User
+@example.invalid","2026-07-10 00:48:55 - Sage Okonkwo (Work notes)
+User reports: Headset mute button not working. Routing toward Desktop Support.
+2026-07-10 01:48:02 - Blake Ibarra (Work notes)
+Checked peripheral path; still failing.
+2026-07-10 02:48:09 - Rowan Ellis (Work notes)
+Checked peripheral path; still failing.",Updated dock firmware.,true,0,Service Desk|Desktop Support
+INC1010058,2026-08-27T19:13:16-04:00,,,New,3-Moderate,app,zoom-teams,Collaboration Services,Arden Miles,Teams will not join from laptop,,,,,0,Service Desk|Collaboration Services
+INC1010063,2026-06-29T11:21:11-04:00,2026-07-13T04:52:49-04:00,2026-07-13T21:53:29-04:00,Closed,4-Low,network,vpn,Network Ops,Logan West,VPN client drops every few minutes,"VPN client drops every few minutes
+Please assist.
+Thanks,
+Logan West
+@example.invalid",,Fixed DNS suffix on VPN adapter.,false,0,Service Desk|Network Ops|Service Desk|Network Ops
+INC1010067,2026-07-27T13:33:30-04:00,2026-07-28T08:14:50-04:00,2026-07-28T23:08:50-04:00,Closed,3-Moderate,identity,password-reset,Service Desk,Drew Kimura,Password reset via self-service failed,"Password reset via self-service failed
+Please assist.
+Thanks,
+Drew Kimura
+@example.invalid","2026-07-27 13:33:30 - Drew Kimura (Work notes)
+User reports: Password reset via self-service failed. Routing toward Service Desk.",Unlocked account and forced password change.,true,0,Service Desk
+INC1010068,2026-08-26T10:37:13-04:00,2026-08-27T09:04:55-04:00,2026-08-27T17:20:39-04:00,Closed,4-Low,app,sap,SAP Support,Nico Alvarez,Slow SAP transaction ME21N this morning,,"2026-08-26 10:37:13 - Nico Alvarez (Work notes)
+User reports: Slow SAP transaction ME21N this morning. Routing toward SAP Support.
+2026-08-26 11:37:20 - Nico Alvarez (Work notes)
+Waiting on user callback.
+2026-08-26 12:37:27 - Nico Alvarez (Work notes)
+Escalating to SAP Support.",SAP role provisioned; tcode authorized.,true,0,Service Desk|SAP Support
+INC1010070,2026-06-04T16:12:16-04:00,2026-06-07T13:18:58-04:00,2026-06-11T23:13:53-04:00,Closed,4-Low,network,other-network,Service Desk,Sage Okonkwo,Packet loss on wired dock,"Packet loss on wired dock
+Please assist.
+Thanks,
+Sage Okonkwo
+@example.invalid",,Share path restored after ACL fix.,true,0,Service Desk|Service Desk|Service Desk|Service Desk
+INC1010071,2026-08-03T10:37:31-04:00,2026-08-05T14:19:14-04:00,2026-08-06T01:32:25-04:00,Closed,3-Moderate,desktop,laptop-hardware,Desktop Support,Finley Shah,Split tunnel missing file share over VPN,"Split tunnel missing file share over VPN
+Please assist.
+Thanks,
+Finley Shah
+@example.invalid","2026-08-03 10:37:31 - Finley Shah (Work notes)
+User reports: Split tunnel missing file share over VPN. Routing toward Desktop Support.
+2026-08-03 11:37:38 - Finley Shah (Work notes)
+Checked laptop-hardware path; still failing.
+2026-08-03 12:37:45 - Finley Shah (Work notes)
+Checked laptop-hardware path; still failing.",Replaced charger and retested battery.,false,0,Service Desk|Desktop Support
+INC1010074,2026-07-05T21:27:34-04:00,2026-07-06T04:14:10-04:00,2026-07-06T07:33:25-04:00,Closed,3-Moderate,network,vpn,Vendor Mgmt,Sutton Grey,Split tunnel missing file share over VPN,"Split tunnel missing file share over VPN
+Please assist.
+Thanks,
+Sutton Grey
+@example.invalid","2026-07-05 21:27:34 - Sutton Grey (Work notes)
+User reports: Split tunnel missing file share over VPN. Routing toward Vendor Mgmt.
+2026-07-05 22:27:41 - Sutton Grey (Work notes)
+Applied standard workaround.",Reset AnyConnect and refreshed cert.,true,0,Service Desk|Vendor Mgmt
+INC1010078,2026-08-24T15:35:09-04:00,2026-08-25T09:25:14-04:00,2026-09-04T03:21:15-04:00,Closed,3-Moderate,facilities,workspace,Facilities,Indigo Walsh,Need workspace setup in Building C,"Need workspace setup in Building C
+Please assist.
+Thanks,
+Indigo Walsh
+@example.invalid","2026-08-24 15:35:09 - Indigo Walsh (Work notes)
+User reports: Need workspace setup in Building C. Routing toward Facilities.",Desk move completed.,true,0,Service Desk|Facilities
+INC1010080,2026-06-15T09:09:11-04:00,2026-06-19T14:10:35-04:00,2026-06-19T15:16:12-04:00,Closed,4-Low,app,sap,SAP Support,Shiloh Grant,SAP password expired; GUI will not open,"SAP password expired; GUI will not open
+Please assist.
+Thanks,
+Shiloh Grant
+@example.invalid","2026-06-15 09:09:11 - Shiloh Grant (Work notes)
+User reports: SAP password expired; GUI will not open. Routing toward SAP Support.
+2026-06-15 10:09:18 - Shiloh Grant (Work notes)
+Escalating to SAP Support.",SAP role provisioned; tcode authorized.,true,0,SAP Support
+INC1010083,2026-07-27T17:37:37-04:00,2026-07-28T03:18:48-04:00,2026-07-28T10:40:36-04:00,Closed,3-Moderate,app,zoom-teams,App Support,Remy Cole,Teams will not join from laptop,"Teams will not join from laptop
+Please assist.
+Thanks,
+Remy Cole
+@example.invalid","2026-07-27 17:37:37 - Remy Cole (Work notes)
+User reports: Teams will not join from laptop. Routing toward App Support.",Reinstalled Zoom client; audio device set.,true,1,Service Desk|App Support
+INC1010089,2026-07-15T13:22:57-04:00,,,On Hold,4-Low,network,wifi,Vendor Mgmt,Tatum Rhodes,Cannot join corporate SSID after laptop rebuild,"Cannot join corporate SSID after laptop rebuild
+Please assist.
+Thanks,
+Tatum Rhodes
+@example.invalid","2026-07-15 13:22:57 - Tatum Rhodes (Work notes)
+User reports: Cannot join corporate SSID after laptop rebuild. Routing toward Vendor Mgmt.
+2026-07-15 14:22:04 - Tatum Rhodes (Work notes)
+Escalating to Vendor Mgmt.",,,0,Vendor Mgmt
+INC1010090,2026-06-08T21:17:51-04:00,2026-06-11T04:42:42-04:00,2026-06-11T06:23:00-04:00,Closed,3-Moderate,app,sap,SAP Support,Nico Alvarez,S4HANA fiori tile missing after transport,,"2026-06-08 21:17:51 - Nico Alvarez (Work notes)
+User reports: S4HANA fiori tile missing after transport. Routing toward SAP Support.
+2026-06-08 22:17:58 - Nico Alvarez (Work notes)
+Checked sap path; still failing.",Transport reapplied; tile restored.,false,0,Service Desk|SAP Support
+INC1010091,2026-08-13T20:08:50-04:00,2026-08-14T01:17:58-04:00,2026-08-14T10:12:09-04:00,Closed,3-Moderate,app,outlook,App Support,Shay Ortega,Outlook not sending; mailbox full,"Outlook not sending; mailbox full
+Please assist.
+Thanks,
+Shay Ortega
+@example.invalid","2026-08-13 20:08:50 - Shay Ortega (Work notes)
+User reports: Outlook not sending; mailbox full. Routing toward App Support.
+2026-08-13 21:08:57 - Shay Ortega (Work notes)
+Escalating to App Support.",Remapped shared mailbox.,true,0,Service Desk|App Support
+INC1010097,2026-08-18T09:47:20-04:00,2026-08-24T18:19:06-04:00,2026-08-24T22:57:19-04:00,Closed,3-Moderate,desktop,laptop-hardware,Service Desk,Casey Quintana,EliteBook 840 overheats under light load,"EliteBook 840 overheats under light load
+Please assist.
+Thanks,
+Casey Quintana
+@example.invalid","2026-08-18 09:47:20 - Casey Quintana (Work notes)
+User reports: EliteBook 840 overheats under light load. Routing toward Service Desk.
+2026-08-18 10:47:27 - Casey Quintana (Work notes)
+Escalating to Service Desk.",Reseated dock; display path restored.,false,0,Service Desk
+INC1010104,2026-07-16T09:35:23-04:00,2026-07-16T13:13:14-04:00,2026-07-18T01:07:01-04:00,Closed,2-High,app,sap,SAP Support,Shiloh Grant,SAP dump while saving FB01,,"2026-07-16 09:35:23 - Shiloh Grant (Work notes)
+User reports: SAP dump while saving FB01. Routing toward SAP Support.
+2026-07-16 10:35:30 - Shiloh Grant (Work notes)
+Applied standard workaround.",GUI cache cleared; S/4 opens.,true,0,Service Desk|SAP Support
+INC1010106,2026-07-06T10:53:56-04:00,2026-07-07T15:43:34-04:00,2026-07-07T18:16:11-04:00,Closed,4-Low,app,sap,SAP Support,Nico Alvarez,VPN client drops every few minutes,"VPN client drops every few minutes
+Please assist.
+Thanks,
+Nico Alvarez
+@example.invalid","2026-07-06 10:53:56 - Nico Alvarez (Work notes)
+User reports: VPN client drops every few minutes. Routing toward SAP Support.",GUI cache cleared; S/4 opens.,true,0,Service Desk|SAP Support
+INC1010110,2026-08-12T09:22:48-04:00,2026-08-13T02:44:27-04:00,2026-08-13T17:15:38-04:00,Closed,4-Low,desktop,printer,Desktop Support,Finley Shah,Cannot print PDF to EliteBook 840,"Cannot print PDF to EliteBook 840
+Please assist.
+Thanks,
+Finley Shah
+@example.invalid","2026-08-12 09:22:48 - Finley Shah (Work notes)
+User reports: Cannot print PDF to EliteBook 840. Routing toward Desktop Support.
+2026-08-12 10:22:55 - Finley Shah (Work notes)
+Applied standard workaround.
+2026-08-12 11:22:02 - Finley Shah (Work notes)
+Applied standard workaround.",Replaced toner and cleared jam.,false,0,Service Desk|Desktop Support
+INC1010116,2026-06-18T09:10:48-04:00,2026-06-18T12:02:14-04:00,2026-06-18T20:59:37-04:00,Closed,3-Moderate,network,wifi,Service Desk,Casey Quintana,DHCP not assigning on wifi,"DHCP not assigning on wifi
+Please assist.
+Thanks,
+Casey Quintana
+@example.invalid","2026-06-18 09:10:48 - Casey Quintana (Work notes)
+User reports: DHCP not assigning on wifi. Routing toward Service Desk.
+2026-06-18 10:10:55 - Casey Quintana (Work notes)
+Applied standard workaround.",Reprovisioned SSID profile.,true,0,Service Desk
+INC1010118,2026-08-14T13:01:50-04:00,,,On Hold,3-Moderate,identity,password-reset,Service Desk,Avery Lang,User forgot password after leave,"User forgot password after leave
+Please assist.
+Thanks,
+Avery Lang
+@example.invalid","2026-08-14 13:01:50 - Avery Lang (Work notes)
+User reports: User forgot password after leave. Routing toward Service Desk.
+2026-08-14 14:01:57 - Avery Lang (Work notes)
+Applied standard workaround.",,,0,Service Desk|Service Desk|Service Desk|Service Desk
+INC1010125,2026-07-28T10:46:20-04:00,2026-08-01T11:11:37-04:00,2026-08-01T22:36:09-04:00,Closed,4-Low,identity,mfa,Identity/IAM,Eden Park,MFA prompt loop — Duo push never arrives,,"2026-07-28 10:46:20 - Eden Park (Work notes)
+User reports: MFA prompt loop — Duo push never arrives. Routing toward Identity/IAM.
+2026-07-28 11:46:27 - Eden Park (Work notes)
+Waiting on user callback.",Reset Duo device; enrollment complete.,true,0,Service Desk|Identity/IAM
+INC1010130,2026-06-05T05:43:07-04:00,2026-06-05T16:55:32-04:00,2026-06-05T20:48:07-04:00,Closed,4-Low,network,wifi,Network Ops,Hayden Cruz,DHCP not assigning on wifi,"DHCP not assigning on wifi
+Please assist.
+Thanks,
+Hayden Cruz
+@example.invalid","2026-06-05 05:43:07 - Hayden Cruz (Work notes)
+User reports: DHCP not assigning on wifi. Routing toward Network Ops.",AP reset on Floor — signal restored.,true,0,Service Desk|Network Ops
+INC1010136,2026-07-20T11:54:11-04:00,2026-07-22T01:59:35-04:00,2026-07-24T13:18:45-04:00,Closed,3-Moderate,identity,password-reset,Service Desk,Casey Quintana,Password expired; cannot log on,"Password expired; cannot log on
+Please assist.
+Thanks,
+Casey Quintana
+@example.invalid","2026-07-20 11:54:11 - Casey Quintana (Work notes)
+User reports: Password expired; cannot log on. Routing toward Service Desk.",Unlocked account and forced password change.,true,0,Service Desk
+INC1010143,2026-07-13T18:50:35-04:00,2026-07-16T00:18:16-04:00,2026-07-16T03:46:27-04:00,Closed,3-Moderate,app,outlook,App Support,Shay Ortega,Calendar invites not showing in Outlook,"Calendar invites not showing in Outlook
+Please assist.
+Thanks,
+Shay Ortega
+@example.invalid","2026-07-13 18:50:35 - Shay Ortega (Work notes)
+User reports: Calendar invites not showing in Outlook. Routing toward App Support.
+2026-07-13 19:50:42 - Shay Ortega (Work notes)
+Waiting on user callback.",Repaired Outlook profile.,false,0,Service Desk|Service Desk|App Support
+INC1010146,2026-07-30T13:26:38-04:00,2026-07-30T20:57:15-04:00,2026-07-31T00:14:07-04:00,Closed,3-Moderate,app,outlook,Collaboration Services,Wynn Foster,Shared mailbox missing after migration,,"2026-07-30 13:26:38 - Wynn Foster (Work notes)
+User reports: Shared mailbox missing after migration. Routing toward Collaboration Services.",Repaired Outlook profile.,true,0,Service Desk|Collaboration Services
+INC1010149,2026-08-13T10:04:13-04:00,,,New,3-Moderate,desktop,laptop-hardware,Desktop Support,Harper Nunez,Cannot boot EliteBook 840 after weekend patch,"Cannot boot EliteBook 840 after weekend patch
+Please assist.
+Thanks,
+Harper Nunez
+@example.invalid","2026-08-13 10:04:13 - Harper Nunez (Work notes)
+User reports: Cannot boot EliteBook 840 after weekend patch. Routing toward Desktop Support.",,,0,Service Desk|Desktop Support
+INC1010154,2026-07-14T15:41:42-04:00,2026-07-15T08:52:32-04:00,2026-07-15T13:08:49-04:00,Closed,3-Moderate,network,wifi,Network Ops,Hayden Cruz,WiFi drops in Building North Floor 2,"WiFi drops in Building North Floor 2
+Please assist.
+Thanks,
+Hayden Cruz
+@example.invalid",,Reprovisioned SSID profile.,true,0,Service Desk|Network Ops
+INC1010155,2026-08-18T00:59:22-04:00,,,In Progress,3-Moderate,app,other-app,App Support,Shay Ortega,License error on desktop client,"License error on desktop client
+Please assist.
+Thanks,
+Shay Ortega
+@example.invalid","2026-08-18 00:59:22 - Shay Ortega (Work notes)
+User reports: License error on desktop client. Routing toward App Support.
+2026-08-18 01:59:29 - Shay Ortega (Work notes)
+Applied standard workaround.
+2026-08-18 02:59:36 - Shay Ortega (Work notes)
+Waiting on user callback.",,,1,Service Desk|App Support
+INC1010156,2026-07-09T14:52:01-04:00,2026-07-09T19:17:02-04:00,2026-07-09T21:11:54-04:00,Closed,3-Moderate,identity,password-reset,Identity/IAM,Sloane Adler,Password expired; cannot log on,"Password expired; cannot log on
+Please assist.
+Thanks,
+Sloane Adler
+@example.invalid","2026-07-09 14:52:01 - Sloane Adler (Work notes)
+User reports: Password expired; cannot log on. Routing toward Identity/IAM.
+2026-07-09 15:52:08 - Sloane Adler (Work notes)
+Escalating to Identity/IAM.",Password reset completed; user logged on.,true,0,Service Desk|Service Desk|Service Desk|Identity/IAM
+INC1010161,2026-08-26T15:44:25-04:00,,,New,4-Low,app,other-app,App Support,Shay Ortega,App crash on save,"App crash on save
+Please assist.
+Thanks,
+Shay Ortega
+@example.invalid","2026-08-26 15:44:25 - Shay Ortega (Work notes)
+User reports: App crash on save. Routing toward App Support.",,,0,Service Desk|App Support|Service Desk|App Support
+INC1010164,2026-08-04T09:02:17-04:00,2026-08-04T22:52:25-04:00,2026-08-06T04:19:01-04:00,Closed,3-Moderate,identity,access-request,Identity/IAM,Eden Park,Access to shared mailbox for project,,"2026-08-04 09:02:17 - Eden Park (Work notes)
+User reports: Access to shared mailbox for project. Routing toward Identity/IAM.
+2026-08-04 10:02:24 - Eden Park (Work notes)
+Waiting on user callback.",Provisioned shared mailbox access.,true,0,Service Desk|Identity/IAM
+INC1010171,2026-08-17T16:22:33-04:00,,,In Progress,3-Moderate,facilities,badge-access,Facilities,River Santos,New badge not provisioned,"New badge not provisioned
+Please assist.
+Thanks,
+River Santos
+@example.invalid","2026-08-17 16:22:33 - River Santos (Work notes)
+User reports: New badge not provisioned. Routing toward Facilities.
+2026-08-17 17:22:40 - River Santos (Work notes)
+Waiting on user callback.",,,3,Service Desk|Facilities
+INC1010173,2026-07-29T13:59:42-04:00,2026-08-02T03:35:31-04:00,2026-08-02T05:47:58-04:00,Closed,4-Low,desktop,os-software,Desktop Support,Cameron Ortiz,VPN disconnects during large file copy,"VPN disconnects during large file copy
+Please assist.
+Thanks,
+Cameron Ortiz
+@example.invalid",,Completed patch and verified BitLocker.,true,0,Service Desk|Desktop Support
+INC1010176,2026-06-30T05:19:12-04:00,2026-06-30T06:10:03-04:00,2026-07-01T02:28:26-04:00,Closed,1-Critical,network,vpn,Network Ops,Logan West,VPN tunnel up but no internal DNS,"VPN tunnel up but no internal DNS
+Please assist.
+Thanks,
+Logan West
+@example.invalid","2026-06-30 05:19:12 - Logan West (Work notes)
+User reports: VPN tunnel up but no internal DNS. Routing toward Network Ops.
+2026-06-30 06:19:19 - Logan West (Work notes)
+Escalating to Network Ops.
+2026-06-30 07:19:26 - Logan West (Work notes)
+Checked vpn path; still failing.",Fixed DNS suffix on VPN adapter.,true,0,Network Ops
+INC1010178,2026-08-06T14:55:28-04:00,2026-08-10T06:20:55-04:00,2026-08-10T13:41:43-04:00,Closed,3-Moderate,facilities,badge-access,Facilities,Indigo Walsh,New badge not provisioned,"New badge not provisioned
+Please assist.
+Thanks,
+Indigo Walsh
+@example.invalid","2026-08-06 14:55:28 - Indigo Walsh (Work notes)
+User reports: New badge not provisioned. Routing toward Facilities.",Door controller reset.,false,0,Service Desk|Facilities|Service Desk|Facilities
+INC1010181,2026-05-31T09:13:17-04:00,2026-05-31T19:10:58-04:00,2026-06-01T05:59:19-04:00,Closed,3-Moderate,network,other-network,Network Ops,Skyler Bond,Packet loss on wired dock,"Packet loss on wired dock
+Please assist.
+Thanks,
+Skyler Bond
+@example.invalid","2026-05-31 09:13:17 - Skyler Bond (Work notes)
+User reports: Packet loss on wired dock. Routing toward Network Ops.",Share path restored after ACL fix.,true,2,Service Desk|Network Ops
+INC1010185,2026-06-10T07:28:17-04:00,2026-06-11T07:55:47-04:00,2026-06-11T22:56:40-04:00,Closed,3-Moderate,app,sap,SAP Support,Eden Brooks,SAP GUI timeout on tcode FB01,"SAP GUI timeout on tcode FB01
+Please assist.
+Thanks,
+Eden Brooks
+@example.invalid","2026-06-10 07:28:17 - Eden Brooks (Work notes)
+User reports: SAP GUI timeout on tcode FB01. Routing toward SAP Support.
+2026-06-10 08:28:24 - Eden Brooks (Work notes)
+Waiting on user callback.",GUI cache cleared; S/4 opens.,true,0,Service Desk|SAP Support|Service Desk|SAP Support
+INC1010188,2026-07-23T11:49:09-04:00,2026-07-25T09:43:55-04:00,2026-07-27T03:47:32-04:00,Closed,3-Moderate,network,vpn,Service Desk,Blake Ibarra,VPN client drops every few minutes,"VPN client drops every few minutes
+Please assist.
+Thanks,
+Blake Ibarra
+@example.invalid",,Reset AnyConnect and refreshed cert.,true,0,Service Desk
+INC1010192,2026-08-19T10:30:03-04:00,2026-08-19T21:45:04-04:00,2026-08-21T00:06:16-04:00,Closed,4-Low,app,sap,SAP Support,Blair Mendes,Slow SAP transaction MM03 this morning,"Slow SAP transaction MM03 this morning
+Please assist.
+Thanks,
+Blair Mendes
+@example.invalid","2026-08-19 10:30:03 - Blair Mendes (Work notes)
+User reports: Slow SAP transaction MM03 this morning. Routing toward SAP Support.",Transport reapplied; tile restored.,true,0,Service Desk|SAP Support
+INC1010198,2026-07-19T18:22:55-04:00,2026-07-21T19:08:04-04:00,2026-07-22T00:14:20-04:00,Closed,4-Low,desktop,os-software,Major Incident,Marlowe Quinn,Chrome will not start after update on MacBook,"Chrome will not start after update on MacBook
+Please assist.
+Thanks,
+Marlowe Quinn
+@example.invalid","2026-07-19 18:22:55 - Marlowe Quinn (Work notes)
+User reports: Chrome will not start after update on MacBook. Routing toward Major Incident.",Repaired Chrome install.,true,0,Major Incident
+INC1010199,2026-08-17T08:11:36-04:00,,,In Progress,3-Moderate,network,vpn,Vendor Mgmt,Tatum Rhodes,VPN client will not launch on Surface Laptop,"VPN client will not launch on Surface Laptop
+Please assist.
+Thanks,
+Tatum Rhodes
+@example.invalid","2026-08-17 08:11:36 - Tatum Rhodes (Work notes)
+User reports: VPN client will not launch on Surface Laptop. Routing toward Vendor Mgmt.
+2026-08-17 09:11:43 - Tatum Rhodes (Work notes)
+Applied standard workaround.
+2026-08-17 10:11:50 - Tatum Rhodes (Work notes)
+Escalating to Vendor Mgmt.",,,0,Vendor Mgmt
+INC1010206,2026-06-03T11:30:30-04:00,2026-06-03T19:37:45-04:00,2026-06-04T13:55:45-04:00,Closed,3-Moderate,desktop,printer,Desktop Support,Reese Dalton,Label printer offline in Building B,"Label printer offline in Building B
+Please assist.
+Thanks,
+Reese Dalton
+@example.invalid","2026-06-03 11:30:30 - Reese Dalton (Work notes)
+User reports: Label printer offline in Building B. Routing toward Desktop Support.",Reset print queue and republished printer.,true,2,Service Desk|Desktop Support
+INC1010213,2026-06-22T12:40:45-04:00,2026-06-23T12:11:10-04:00,2026-06-23T18:38:25-04:00,Closed,3-Moderate,facilities,hvac,Facilities,River Santos,Thermostat unresponsive in Building B,,"2026-06-22 12:40:45 - River Santos (Work notes)
+User reports: Thermostat unresponsive in Building B. Routing toward Facilities.
+2026-06-22 13:40:52 - River Santos (Work notes)
+Escalating to Facilities.
+2026-06-22 14:40:59 - River Santos (Work notes)
+Escalating to Facilities.",Vendor adjusted HVAC setpoint.,true,0,Service Desk|Facilities
+INC1010215,2026-06-23T14:45:53-04:00,2026-06-24T00:06:33-04:00,2026-06-25T03:58:47-04:00,Closed,2-High,app,zoom-teams,App Support,Remy Cole,Meeting headset not selected in Zoom,"Meeting headset not selected in Zoom
+Please assist.
+Thanks,
+Remy Cole
+@example.invalid","2026-06-23 14:45:53 - Remy Cole (Work notes)
+User reports: Meeting headset not selected in Zoom. Routing toward App Support.
+2026-06-23 15:45:00 - Remy Cole (Work notes)
+Escalating to Major Incident.
+2026-06-23 16:45:07 - Remy Cole (Work notes)
+Applied standard workaround.",Reinstalled Zoom client; audio device set.,false,1,Service Desk|Major Incident|App Support
+INC1010220,2026-08-24T12:44:42-04:00,2026-09-04T02:29:25-04:00,2026-09-04T02:49:22-04:00,Closed,4-Low,desktop,laptop-hardware,Service Desk,Avery Lang,Laptop lid sensor false sleep on EliteBook 840,"Laptop lid sensor false sleep on EliteBook 840
+Please assist.
+Thanks,
+Avery Lang
+@example.invalid","2026-08-24 12:44:42 - Avery Lang (Work notes)
+User reports: Laptop lid sensor false sleep on EliteBook 840. Routing toward Service Desk.
+2026-08-24 13:44:49 - Avery Lang (Work notes)
+Checked laptop-hardware path; still failing.
+2026-08-24 14:44:56 - Avery Lang (Work notes)
+Escalating to Service Desk.",Reseated dock; display path restored.,true,0,Service Desk
+INC1010226,2026-07-27T21:59:13-04:00,2026-08-01T08:49:13-04:00,2026-08-01T21:42:15-04:00,Closed,4-Low,identity,password-reset,Service Desk,Blake Ibarra,Need password reset for shared kiosk,"Need password reset for shared kiosk
+Please assist.
+Thanks,
+Blake Ibarra
+@example.invalid",,Unlocked account and forced password change.,true,0,Service Desk
+INC1010233,2026-06-22T20:57:07-04:00,2026-06-23T17:59:42-04:00,2026-06-24T00:19:06-04:00,Closed,3-Moderate,app,sap,SAP Support,Shiloh Grant,SAP dump while saving ME21N,"SAP dump while saving ME21N
+Please assist.
+Thanks,
+Shiloh Grant
+@example.invalid","2026-06-22 20:57:07 - Shiloh Grant (Work notes)
+User reports: SAP dump while saving ME21N. Routing toward SAP Support.",SAP role provisioned; tcode authorized.,true,0,Service Desk|SAP Support
+INC1010237,2026-05-29T15:43:21-04:00,2026-06-03T16:10:08-04:00,,Resolved,4-Low,desktop,other-desktop,Desktop Support,Parker Singh,Desktop profile corrupt after login,"Desktop profile corrupt after login
+Please assist.
+Thanks,
+Parker Singh
+@example.invalid","2026-05-29 15:43:21 - Parker Singh (Work notes)
+User reports: Desktop profile corrupt after login. Routing toward Desktop Support.
+2026-05-29 16:43:28 - Parker Singh (Work notes)
+Escalating to Desktop Support.
+2026-05-29 17:43:35 - Parker Singh (Work notes)
+Applied standard workaround.",Rebuilt profile; network drive mapped.,false,0,Service Desk|Desktop Support
+INC1010240,2026-06-17T13:04:25-04:00,2026-06-17T16:33:29-04:00,2026-06-17T18:57:47-04:00,Closed,3-Moderate,facilities,hvac,Service Desk,Jordan Hale,Thermostat unresponsive in Building East,"Thermostat unresponsive in Building East
+Please assist.
+Thanks,
+Jordan Hale
+@example.invalid",,Thermostat reset; temperature stable.,true,1,Service Desk
+INC1010243,2026-05-29T14:25:42-04:00,2026-06-04T21:33:29-04:00,,Resolved,3-Moderate,network,vpn,Service Desk,Sage Okonkwo,Split tunnel missing file share over VPN,"Split tunnel missing file share over VPN
+Please assist.
+Thanks,
+Sage Okonkwo
+@example.invalid","2026-05-29 14:25:42 - Sage Okonkwo (Work notes)
+User reports: Split tunnel missing file share over VPN. Routing toward Service Desk.
+2026-05-29 15:25:49 - Sage Okonkwo (Work notes)
+Checked vpn path; still failing.",Fixed DNS suffix on VPN adapter.,false,0,Service Desk|Network Ops|Service Desk
+INC1010245,2026-08-10T08:47:49-04:00,2026-08-10T20:55:02-04:00,2026-08-10T22:17:16-04:00,Closed,2-High,facilities,workspace,Facilities,Indigo Walsh,Desk move request Floor 3,"Desk move request Floor 3
+Please assist.
+Thanks,
+Indigo Walsh
+@example.invalid","2026-08-10 08:47:49 - Indigo Walsh (Work notes)
+User reports: Desk move request Floor 3. Routing toward Facilities.
+2026-08-10 09:47:56 - Indigo Walsh (Work notes)
+Escalating to Facilities.",Chair replaced.,false,1,Service Desk|Facilities
+INC1010249,2026-06-24T20:51:06-04:00,2026-06-25T08:35:48-04:00,2026-06-25T17:36:26-04:00,Closed,4-Low,identity,password-reset,Security Ops,Samir Holt,Need password reset for shared kiosk,"Need password reset for shared kiosk
+Please assist.
+Thanks,
+Samir Holt
+@example.invalid","2026-06-24 20:51:06 - Samir Holt (Work notes)
+User reports: Need password reset for shared kiosk. Routing toward Security Ops.
+2026-06-24 21:51:13 - Samir Holt (Work notes)
+Checked password-reset path; still failing.",Password reset completed; user logged on.,true,0,Service Desk|Security Ops
+INC1010252,2026-06-19T13:51:52-04:00,2026-06-21T02:45:54-04:00,,Resolved,4-Low,desktop,os-software,Desktop Support,Harper Nunez,Windows update stuck at 87% on ThinkPad T14,"Windows update stuck at 87% on ThinkPad T14
+Please assist.
+Thanks,
+Harper Nunez
+@example.invalid","2026-06-19 13:51:52 - Harper Nunez (Work notes)
+User reports: Windows update stuck at 87% on ThinkPad T14. Routing toward Desktop Support.
+2026-06-19 14:51:59 - Harper Nunez (Work notes)
+Waiting on user callback.",Repaired Chrome install.,true,0,Desktop Support
+INC1010257,2026-08-11T15:50:04-04:00,2026-08-12T11:57:45-04:00,,Resolved,2-High,desktop,os-software,Desktop Support,Harper Nunez,Windows patch failed on MacBook; bitlocker prompt loop,"Windows patch failed on MacBook; bitlocker prompt loop
+Please assist.
+Thanks,
+Harper Nunez
+@example.invalid","2026-08-11 15:50:04 - Harper Nunez (Work notes)
+User reports: Windows patch failed on MacBook; bitlocker prompt loop. Routing toward Desktop Support.",Repaired Chrome install.,false,0,Service Desk|Major Incident|Desktop Support
+INC1010262,2026-06-25T15:17:37-04:00,2026-06-26T17:50:13-04:00,2026-06-27T02:23:28-04:00,Closed,3-Moderate,desktop,laptop-hardware,Desktop Support,,Laptop charger not seating; battery icon missing,"Laptop charger not seating; battery icon missing
+Please assist.
+Thanks,
+End User
+@example.invalid","2026-06-25 15:17:37 - Casey Quintana (Work notes)
+User reports: Laptop charger not seating; battery icon missing. Routing toward Desktop Support.
+2026-06-25 16:17:44 - Riley Cho (Work notes)
+Waiting on user callback.
+2026-06-25 17:17:51 - Blake Ibarra (Work notes)
+Escalating to Desktop Support.",Reseated dock; display path restored.,true,0,Service Desk|Desktop Support
+INC1010269,2026-08-04T16:34:29-04:00,2026-08-09T10:18:37-04:00,2026-08-09T21:46:41-04:00,Closed,3-Moderate,app,web-app,Major Incident,Marlowe Quinn,Chrome SSO timeout on web app,,"2026-08-04 16:34:29 - Marlowe Quinn (Work notes)
+User reports: Chrome SSO timeout on web app. Routing toward Major Incident.
+2026-08-04 17:34:36 - Marlowe Quinn (Work notes)
+Applied standard workaround.",Cleared SSO cookies; Chrome sign-in works.,false,0,Major Incident
+INC1010274,2026-07-01T09:35:51-04:00,2026-07-01T14:47:15-04:00,2026-07-02T03:27:26-04:00,Closed,2-High,desktop,peripheral,Service Desk,Sage Okonkwo,Webcam disabled after patch,"Webcam disabled after patch
+Please assist.
+Thanks,
+Sage Okonkwo
+@example.invalid","2026-07-01 09:35:51 - Sage Okonkwo (Work notes)
+User reports: Webcam disabled after patch. Routing toward Service Desk.",Swapped headset; mute works.,false,0,Service Desk
+INC1010279,2026-08-18T14:06:50-04:00,,,In Progress,4-Low,desktop,os-software,Desktop Support,Reese Dalton,OS freeze / blue screen on Latitude 5540,"OS freeze / blue screen on Latitude 5540
+Please assist.
+Thanks,
+Reese Dalton
+@example.invalid",,,,0,Service Desk|Desktop Support|Service Desk|Desktop Support
+INC1010281,2026-08-02T07:32:29-04:00,2026-08-03T19:19:38-04:00,2026-08-04T11:14:29-04:00,Closed,4-Low,identity,password-reset,Service Desk,Drew Kimura,Password reset via self-service failed,"Password reset via self-service failed
+Please assist.
+Thanks,
+Drew Kimura
+@example.invalid","2026-08-02 07:32:29 - Drew Kimura (Work notes)
+User reports: Password reset via self-service failed. Routing toward Service Desk.",Unlocked account and forced password change.,true,0,Service Desk|Service Desk|Service Desk|Service Desk
+INC1010282,2026-07-13T04:55:51-04:00,2026-07-14T22:49:14-04:00,2026-07-16T00:01:59-04:00,Closed,4-Low,desktop,other-desktop,Service Desk,Casey Quintana,Desktop profile corrupt after login,,"2026-07-13 04:55:51 - Casey Quintana (Work notes)
+User reports: Desktop profile corrupt after login. Routing toward Service Desk.
+2026-07-13 05:55:58 - Casey Quintana (Work notes)
+Waiting on user callback.
+2026-07-13 06:55:05 - Casey Quintana (Work notes)
+Checked other-desktop path; still failing.",Granted temporary local admin.,true,0,Service Desk|Vendor Mgmt|Service Desk
+INC1010289,2026-07-28T06:36:43-04:00,2026-07-31T17:33:29-04:00,2026-07-31T21:50:25-04:00,Closed,3-Moderate,network,vpn,Service Desk,Rowan Ellis,VPN disconnects during large file copy,"VPN disconnects during large file copy
+Please assist.
+Thanks,
+Rowan Ellis
+@example.invalid","2026-07-28 06:36:43 - Rowan Ellis (Work notes)
+User reports: VPN disconnects during large file copy. Routing toward Service Desk.
+2026-07-28 07:36:50 - Rowan Ellis (Work notes)
+Applied standard workaround.
+2026-07-28 08:36:57 - Rowan Ellis (Work notes)
+Escalating to Service Desk.",VPN profile rebuilt; tunnel stable.,false,0,Service Desk|Network Ops|Service Desk
+INC1010292,2026-07-23T01:52:27-04:00,2026-07-23T08:47:24-04:00,,Resolved,3-Moderate,desktop,os-software,Service Desk,Morgan Voss,OS freeze / blue screen on MacBook,"OS freeze / blue screen on MacBook
+Please assist.
+Thanks,
+Morgan Voss
+@example.invalid","2026-07-23 01:52:27 - Morgan Voss (Work notes)
+User reports: OS freeze / blue screen on MacBook. Routing toward Service Desk.
+2026-07-23 02:52:34 - Morgan Voss (Work notes)
+Checked os-software path; still failing.
+2026-07-23 03:52:41 - Morgan Voss (Work notes)
+Waiting on user callback.",Cleared update cache; reboot succeeded.,true,0,Service Desk
+INC1010295,2026-07-06T10:18:57-04:00,2026-07-06T16:16:18-04:00,2026-07-06T21:50:58-04:00,Closed,3-Moderate,app,web-app,App Support,Shay Ortega,Page timeout in Chrome after lunch,"Page timeout in Chrome after lunch
+Please assist.
+Thanks,
+Shay Ortega
+@example.invalid","2026-07-06 10:18:57 - Shay Ortega (Work notes)
+User reports: Page timeout in Chrome after lunch. Routing toward App Support.
+2026-07-06 11:18:04 - Shay Ortega (Work notes)
+Waiting on user callback.
+2026-07-06 12:18:11 - Shay Ortega (Work notes)
+Checked web-app path; still failing.",Cleared SSO cookies; Chrome sign-in works.,true,0,Service Desk|App Support
+INC1010302,2026-08-05T19:30:10-04:00,2026-08-06T09:51:46-04:00,2026-08-06T13:12:07-04:00,Closed,4-Low,network,vpn,Network Ops,Peyton Ames,VPN client drops every few minutes,"VPN client drops every few minutes
+Please assist.
+Thanks,
+Peyton Ames
+@example.invalid","2026-08-05 19:30:10 - Peyton Ames (Work notes)
+User reports: VPN client drops every few minutes. Routing toward Network Ops.
+2026-08-05 20:30:17 - Peyton Ames (Work notes)
+Escalating to Network Ops.
+2026-08-05 21:30:24 - Peyton Ames (Work notes)
+Applied standard workaround.",Fixed DNS suffix on VPN adapter.,true,0,Service Desk|Network Ops
+INC1010304,2026-07-30T09:33:38-04:00,2026-08-01T00:36:35-04:00,,Resolved,4-Low,app,sap,App Support,Kendall Frost,Slow SAP transaction SU01 this morning,"Slow SAP transaction SU01 this morning
+Please assist.
+Thanks,
+Kendall Frost
+@example.invalid","2026-07-30 09:33:38 - Kendall Frost (Work notes)
+User reports: Slow SAP transaction SU01 this morning. Routing toward App Support.
+2026-07-30 10:33:45 - Kendall Frost (Work notes)
+Applied standard workaround.",GUI cache cleared; S/4 opens.,true,1,Service Desk|App Support
+INC1010308,2026-08-25T11:28:09-04:00,2026-08-25T21:55:01-04:00,2026-08-26T22:20:51-04:00,Closed,3-Moderate,app,sap,SAP Support,Nico Alvarez,SAP dump while saving ME21N,"SAP dump while saving ME21N
+Please assist.
+Thanks,
+Nico Alvarez
+@example.invalid","2026-08-25 11:28:09 - Nico Alvarez (Work notes)
+User reports: SAP dump while saving ME21N. Routing toward SAP Support.",GUI cache cleared; S/4 opens.,true,0,Service Desk|SAP Support
+INC1010312,2026-06-15T15:19:47-04:00,2026-06-16T07:08:32-04:00,2026-06-16T08:32:22-04:00,Closed,3-Moderate,identity,mfa,Identity/IAM,Marlowe Singh,TOTP out of sync after clock change,"TOTP out of sync after clock change
+Please assist.
+Thanks,
+Marlowe Singh
+@example.invalid","2026-06-15 15:19:47 - Marlowe Singh (Work notes)
+User reports: TOTP out of sync after clock change. Routing toward Identity/IAM.",Resynced TOTP; MFA prompt succeeds.,false,0,Service Desk|Identity/IAM
+INC1010317,2026-08-07T10:01:22-04:00,2026-08-14T12:20:53-04:00,2026-08-14T17:18:35-04:00,Closed,3-Moderate,desktop,laptop-hardware,Desktop Support,,AnyConnect error after password change,"AnyConnect error after password change
+Please assist.
+Thanks,
+End User
+@example.invalid","2026-08-07 10:01:22 - Drew Kimura (Work notes)
+User reports: AnyConnect error after password change. Routing toward Desktop Support.
+2026-08-07 11:01:29 - Casey Quintana (Work notes)
+Applied standard workaround.
+2026-08-07 12:01:36 - Sage Okonkwo (Work notes)
+Applied standard workaround.",Reseated dock; display path restored.,false,0,Service Desk|Desktop Support

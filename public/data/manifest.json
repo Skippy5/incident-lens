@@ -1,0 +1,49 @@
+{
+  "generator": "fake-itsm-csv@1.2",
+  "end": "2026-08-27",
+  "timezone": "America/New_York",
+  "samples": {
+    "small": {
+      "n": 80,
+      "seed": 801,
+      "windowDays": 90,
+      "end": "2026-08-27",
+      "file": "small.csv",
+      "bytes": 40417,
+      "spikeWeeks": {
+        "vpn": "2026-W27",
+        "mfa": "2026-W31"
+      },
+      "pingPongDouble": 10,
+      "pingPongSingle": 5
+    },
+    "medium": {
+      "n": 800,
+      "seed": 802,
+      "windowDays": 183,
+      "end": "2026-08-27",
+      "file": "medium.csv",
+      "bytes": 411746,
+      "spikeWeeks": {
+        "vpn": "2026-W19",
+        "mfa": "2026-W27"
+      },
+      "pingPongDouble": 96,
+      "pingPongSingle": 48
+    },
+    "large": {
+      "n": 4000,
+      "seed": 4001,
+      "windowDays": 365,
+      "end": "2026-08-27",
+      "file": "large.csv",
+      "bytes": 1771407,
+      "spikeWeeks": {
+        "vpn": "2026-W04",
+        "mfa": "2026-W18"
+      },
+      "pingPongDouble": 480,
+      "pingPongSingle": 240
+    }
+  }
+}
