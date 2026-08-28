@@ -1,5 +1,5 @@
-/** stopwords-itsm@1.0 — NLTK English snapshot + ITSM extras. Keep-list never dropped. */
-export const STOPWORD_VERSION = 'stopwords-itsm@1.0';
+/** stopwords-itsm@1.1 — NLTK English snapshot + ITSM extras + sample signature names. Keep-list never dropped. */
+export const STOPWORD_VERSION = 'stopwords-itsm@1.1';
 
 const NLTK = [
   'i','me','my','myself','we','our','ours','ourselves','you','your','yours','yourself','yourselves',
@@ -18,9 +18,26 @@ const NLTK = [
 const ITSM = [
   'please','thanks','thank','ticket','tickets','user','users','issue','issues','incident','incidents',
   'resolved','closed','team','still','also','able','need','needs','needed','request','requests',
-  'reported','reporting','hello','hi','regards','sent','dear','help','trying','tried','working',
-  'works','getting','get','got','see','seen','let','know','update','updated','today','yesterday',
+  'reported','reporting','report','reports','hello','hi','regards','sent','dear','help','trying','tried','working',
+  'works','work','note','notes','getting','get','got','see','seen','let','know','update','updated','today','yesterday',
   'via','per','new','old','called','normally','fixed','added','file','files','normally',
+];
+
+/** First/last tokens from scripts/generate-samples.mjs NAMES (journal signatures). */
+const SIGNATURE_NAMES = [
+  'jordan','hale','riley','cho','morgan','voss','avery','lang','casey','quintana',
+  'quinn','patel','sage','okonkwo','rowan','ellis','blake','ibarra','drew','kimura',
+  'harper','nunez','finley','shah','cameron','ortiz','reese','dalton','parker','singh',
+  'taylor','brooks','dakota','chen','emerson','vale','jamie','solis',
+  'hayden','cruz','skyler','bond','logan','west','peyton','ames',
+  'jules','navarro','kendall','frost','remy','cole','shay','ortega',
+  'nico','alvarez','blair','mendes','shiloh','grant','eden',
+  'phoenix','lee','marlowe','park','sloane','adler',
+  'river','santos','indigo','walsh','sol','vega','lane',
+  'arden','miles','wynn','foster','taryn','bell',
+  'cassidy','rowe','lennox','hart',
+  'sutton','grey','tatum','rhodes','prado',
+  'monroe','robin','chris','adelman','samir','holt',
 ];
 
 export const KEEP_LIST = new Set([
@@ -29,5 +46,5 @@ export const KEEP_LIST = new Set([
 ]);
 
 export const STOPWORDS = new Set(
-  [...NLTK, ...ITSM].filter((w) => !KEEP_LIST.has(w)),
+  [...NLTK, ...ITSM, ...SIGNATURE_NAMES].filter((w) => !KEEP_LIST.has(w)),
 );
